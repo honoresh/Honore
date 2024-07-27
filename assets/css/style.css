@@ -955,7 +955,11 @@ textarea.input-field {
 /**
  * responsive for larger than 550px screen
  */
-
+  @media (max-width: 992px) {
+  .hero-banner picture img {
+    display: none;
+  }
+}
 @media (min-width: 550px) {
   /**
    * REUSED STYLE
